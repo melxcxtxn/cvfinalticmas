@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="cvstyle.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@0,100;0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="cvimagenes/profilepic.png">
+    <title>Mi CV</title>
+</head>
+<body>
+    <!--ENTRADA-->
+    <div>
+        <div class="entrada" id="entrada">
+            <div class="enter-here" id="enter-here">
+                <img class="imagencarpeta" src="cvimagenes/carpeta.png" alt="Haz click para entrar" >
+                <p>Enter here</p>
+            </div>
+        </div>
+    </div>
+
+    <!--CONTENIDO-->
+    <div class="contenido" id="contenido">
+
+        <!--CONTENIDO: MENU SUPERIOR: CARPETAS-->
+        <nav class="menu-carpetas col-8" id="menu-carpetas">
+            <a href="#" class="menu-icon" id="menu-icon">
+                <i class="fa fa-bars"></i>
+            </a>
+            
+            <a href="#perfil">
+                <img class="minicarpeta" src="cvimagenes/carpeta.png" alt="Perfil">
+                <p>Perfil</p>
+            </a>
+
+            <a href="#proyectos">
+                <img class="minicarpeta" src="cvimagenes/carpeta.png" alt="Proyectos">
+                <p>Proyectos</p>
+            </a>
+
+            <a href="#habilidades">
+                <img class="minicarpeta" src="cvimagenes/carpeta.png" alt="Habilidades">
+                <p>Habilidades</p>
+            </a>
+
+            <a href="#idiomas">
+                <img class="minicarpeta" src="cvimagenes/carpeta.png" alt="Idiomas">
+                <p>Idiomas</p>
+            </a>
+
+            <a href="#experiencia">
+                <img class="minicarpeta" src="cvimagenes/carpeta.png" alt="Experiencia">
+                <p>Experiencia</p>
+            </a>
+
+            <a href="#educacion">
+                <img class="minicarpeta" src="cvimagenes/carpeta.png" alt="Educacion">
+                <p>Educacion</p>
+            </a>
+
+            <a href="#contacto">
+                <img class="minicarpeta" src="cvimagenes/carpeta.png" alt="Contacto">
+                <p>Contacto</p>
+            </a>
+
+            <a href="#buscador" id="lupa">
+                <form id="" action="#">
+                    <label class="buscador" for="search">
+                      <input id="barra" type="text" placeholder="Hi!">
+                      <i class="fa fa-search"></i>
+                    </label>
+                </form>
+            </a>   
+        </nav>
+
+        <!--CONTENIDO: SIDEBAR DATOS PPALES-->
+        <div class="mini-perfil col-4">
+                
+            <a href="#foto-de-perfil">
+                <div>
+                    <img id="avatar" class="Avatar" src="cvimagenes/profilepic.png" alt="Foto de perfil" >
+                </div>
+            </a>
+        
+            <div class="datospersonales">
+                <h1>lysully</h1>
+                <p>32, Human</p>
+                <p>Earth based</p>
+                <p><i class="fa fa-star"></i> Maker of things <i class="fa fa-star"></i></p>
+                <p>By things, I mean: web, design, products, drawings</p>
+            </div>
+                
+            <!--CONTENIDO: SIDEBAR DATOS PPALES: REDES SOCIALES-->
+            <div class="contenedorsocial">
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-behance"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-github"></a>
+            </div>
+
+        </div>   
+            
+        <!--CONTENIDO: SECCIONES-->
+        <div class="secciones col-8">
+            <!--CONTENIDO: FOTO: HIDDEN-->
+            <div class="foto-de-perfil" id="foto-de-perfil">
+                <!--FOTO: TITULO-->
+                <div class="titulo-ventana">
+                    <div>
+                        <h2>real-me.jpg</h2>
+                    </div>
+                    <div>
+                        <span class="cerrar-foto">&times;</span>
+                    </div>
+                </div>
+
+                <!--FOTO: CONTENIDO-->
+                <div>
+                    <img  id="foto-conejo" src="cvimagenes/foto-de-perfil.png" alt="Una foto de un conejo blanco"> 
+                </div>
+            </div>
+
+            <!--CONTENIDO: PERFIL-->
+            <div class="perfil" id="perfil">
+                <!--PERFIL: TITULO-->
+                <div class="titulo-ventana">
+                    <div>
+                        <h2>about-me.txt</h2>
+                    </div>
+                    <div>
+                        <img class="imagenventana"  src="cvimagenes/botones-ventana.png" alt="Botones ventana">       
+                    </div>
+                </div> 
+        
+                <!--PERFIL: CONTENIDO-->
+                <div class="perfil-container">
+                    <div class="resumen">
+                        <p><a href="https://github.com/ayukuhs"><i class="fa fa-github"></i>  https://github.com/lysully</a></p>
+                        <p><a href="mailto:d.ayukuhs@gmail.com"><i class="fa fa-envelope"></i>  d.ayukuhs@gmail.com</a></p>
+                    </div>
+        
+                    <div class="bio">
+                        <p>Always learning & always up for a challenge to put my skills to the test</p>
+                        <ul>
+                            <li>Creative thinking</li>
+                            <li>Attention to details</li>
+                            <li>Fueled by sugar and anxiety</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills">
+                <!--CONTENIDO: HABILIDADES-->
+                <div class="habilidades" id="habilidades">
+                    <!--HABILIDADES: TITULO-->
+                    <div class="titulo-ventana">
+                        <div>
+                            <h2>habilidades.cdr</h2>
+                        </div>
+                        <div>
+                            <img class="imagenventana"  src="cvimagenes/botones-ventana.png" alt="Botones ventana">       
+                        </div>
+                    </div>
+
+                    <!--HABILIDADES: CONTENIDO-->
+                    <div class="habilidades-container">
+                        <div class="habilidad">                
+                            <div class="titulo">
+                                <p>Corel Draw</p>
+                                <p>90%</p>
+                            </div>     
+                            <div class="barra">
+                                <div id="barra-corel"></div>
+                            </div>
+                        </div>
+
+                        <div class="habilidad">
+                            <div class="titulo">
+                                <p>Ps</p>
+                                <p>70%</p>
+                            </div>     
+                            <div class="barra">
+                                <div id="barra-psd"></div>
+                            </div>
+                        </div>
+
+                        <div class="habilidad">
+                            <div class="titulo">
+                                <p>HTML</p>
+                                <p>80%</p>
+                            </div>     
+                            <div class="barra">
+                                <div id="barra-html"></div>
+                            </div>
+                        </div>
+
+                        <div class="habilidad">
+                            <div class="titulo">
+                                <p>CSS</p>
+                                <p>40%</p>
+                            </div>     
+                            <div class="barra">
+                                <div id="barra-css"></div>
+                            </div>
+                        </div>
+
+                        <div class="habilidad">
+                            <div class="titulo">
+                                <p>Javascript</p>
+                                <p>10%</p>
+                            </div>     
+                            <div class="barra">
+                                <div id="barra-js"></div>
+                            </div>
+                        </div>    
+                        
+                        <div class="habilidad">
+                            <div class="titulo">
+                                <p>Figma</p>
+                                <p>5%</p>
+                            </div>     
+                            <div class="barra">
+                                <div id="barra-figma"></div>
+                            </div>
+                        </div>  
+
+                        <div class="habilidad">
+                            <div class="titulo">
+                                <p>Git</p>
+                                <p>5%</p>
+                            </div>     
+                            <div class="barra">
+                                <div id="barra-git"></div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+
+                <!--CONTENIDO: IDIOMAS-->
+                <div class="idiomas" id="idiomas">
+                    <!--IDIOMAS: TITULO-->
+                    <div class="titulo-ventana">
+                        <div>
+                            <h2>idiomas.tff</h2>
+                        </div>
+                        <div>
+                            <img class="imagenventana"  src="cvimagenes/botones-ventana.png" alt="Botones ventana">       
+                        </div>
+                    </div>
+
+                    <!--IDIOMAS: CONTENIDO-->
+                    <div class="idiomas-container">
+                        <div class="idioma">
+                            <div>
+                                <p>Español - <i>(native)</i></p>
+                            </div>
+                            <div class="puntos">
+                                <span class="punto-lleno"></span>
+                                <span class="punto-lleno"></span>
+                                <span class="punto-lleno"></span>
+                                <span class="punto-lleno"></span>
+                                <span class="punto-lleno"></span>
+                                <span class="punto-lleno"></span>
+                            </div>
+                            
+                            
+                        </div>
+
+                        <div class="idioma">
+                            <div>
+                                <p>Ingles - <i>(C2 proficient)</i></p>
+                            </div>
+                            <div class="puntos">
+                                <span class="punto-lleno"></span>
+                                <span class="punto-lleno"></span>
+                                <span class="punto-lleno"></span>
+                                <span class="punto-lleno"></span>
+                                <span class="punto-lleno"></span>
+                                <span class="punto-vacio"></span>
+                            </div>
+                        </div>
+
+                        <div class="idioma">
+                            <div>
+                                <p>Japonés</p>
+                            </div>
+                            <div class="puntos">
+                                <span class="punto-lleno"></span>
+                                <span class="punto-lleno"></span>
+                                <span class="punto-lleno"></span>
+                                <span class="punto-vacio"></span>
+                                <span class="punto-vacio"></span>
+                                <span class="punto-vacio"></span>
+                            </div>
+                        </div>
+
+                        <div class="idioma">
+                            <div>
+                                <p>Coreano - <i>(Topik 1)</i></p>
+                            </div>
+                            <div class="puntos">
+                                <span class="punto-lleno"></span>
+                                <span class="punto-lleno"></span>
+                                <span class="punto-vacio"></span>
+                                <span class="punto-vacio"></span>
+                                <span class="punto-vacio"></span>
+                                <span class="punto-vacio"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div> 
+
+            <!--CONTENIDO: PROYECTOS-->
+            <div>
+                <div class="proyectos" id="proyectos">
+                    <!--PROYECTOS: TITULO-->
+                    <div class="titulo-ventana">
+                        <div>
+                            <h2>proyectos.raw</h2>
+                        </div>
+                        <div>
+                            <img class="imagenventana"  src="cvimagenes/botones-ventana.png" alt="Botones ventana">       
+                        </div>
+                    </div>
+
+                    <!--PROYECTOS: CONTENIDO 1/2-->
+                    <div class="proyectos-container">
+                        <!--btn fires up modal-->
+                        <button class="btn btn-open" id="btn-open">
+                            <div>
+                                <img class="imagencarpeta" src="cvimagenes/carpeta.png" alt="Haz click para entrar" >
+                                <p>Finished</p>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                    
+                <!--PROYECTOS: CONTENIDO 2/2-->
+                <div class="galeria-proyectos" id="galeria-proyectos">
+                    <!--MODAL BOX-->
+                    <div id="modal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content" id="modal-content">
+
+                            <div class="titulo-ventana">
+                                <div>
+                                    <h2>finished-proyectos.raw</h2>
+                                </div>
+                                <div>
+                                    <span class="cerrar-modal">&times;</span>
+                                </div>
+                            </div>      
+                        
+                            <div class="caja">
+                                <img src="cvimagenes/portfolio1.jpg" alt="">
+                                <img src="cvimagenes/portfolio2.jpg" alt="">
+                                <img src="cvimagenes/portfolio3.jpg" alt="">
+                                <img src="cvimagenes/portfolio4.jpg" alt="">
+                                <img src="cvimagenes/portfolio5.jpg" alt="">
+                                <img src="cvimagenes/portfolio6.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+       
+            <div class="history">
+            <!--CONTENIDO: EXPERIENCIA-->
+                <div class="experiencia" id="experiencia">
+                    <!--EXPERIENCIA: TITULO-->
+                    <div class="titulo-ventana">
+                        <div>
+                            <h2>experiencia.pdf</h2>
+                        </div>
+                        <div>
+                            <img class="imagenventana"  src="cvimagenes/botones-ventana.png" alt="Botones ventana">       
+                        </div>
+                    </div>
+                    
+                    <!--EXPERIENCIA: CONTENIDO-->
+                    <div class="linea">       
+                        <ul>
+                            <li class="experiencia-container">
+                                <div class="exp-contenido">
+                                    <h4>Pasante - Asistente de diseño</h4>
+                                    <p>Lorem ipsum. Lorem ipsum lorem ipsum.<i>- 2011</i></p>
+                                </div>
+                            </li>
+
+                            <li class="experiencia-container">
+                                <div class="exp-contenido">
+                                    <h4>Asistente de producto</h4>
+                                    <p>Lorem ipsum. Lorem ipsum lorem ipsum.<i>- 2016</i></p>
+                                </div>
+                            </li>  
+
+                            <li class="experiencia-container">
+                                <div class="exp-contenido">
+                                    <h4>Diseñador Jr.</h4>
+                                    <p>Lorem ipsum. Lorem ipsum lorem ipsum.<i>- 2020</i></p>
+                                </div>
+                            </li>
+
+                            <li class="experiencia-container-extra shake-bottom">
+                                <div class="exp-contenido">
+                                    <h4>Front End Developer Jr.</h4>
+                                    <p>Your Company.<i>- 2023</i></p>
+                                </div>
+                            </li>
+                        </ul>
+                     </div> 
+                </div>  
+
+                <!--CONTENIDO: EDUCACION-->
+                <div class="educacion" id="educacion">
+                    <!--EDUCACION: TITULO-->
+                    <div class="titulo-ventana">
+                        <div>
+                            <h2>educacion.doc</h2>
+                        </div>
+                        <div>
+                            <img class="imagenventana"  src="cvimagenes/botones-ventana.png" alt="Botones ventana">       
+                        </div>
+                    </div>
+
+                    <!--EDUCACION: CONTENIDO-->
+                    <div class="educacion-container">
+                        <div class="edu-contenido">
+                            <h4>Bachiller</h4>
+                            <p>Colegio Nacional De Buenos Aires</p>
+                            <i><p>2004-2009</p></i>
+                        </div>
+                    </div>
+                    
+                    <div class="educacion-container">
+                        <div class="edu-contenido">
+                            <h4>Diseñadora de Indumentaria</h4>
+                            <p>Universidad de Buenos Aires</p>
+                            <i><p>2009-2016</p></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--CONTENIDO: CONTACTO-->
+            <div class="contacto" id="contacto">
+
+                <!--CONTACTO: TITULO-->
+                <div class="titulo-ventana">
+                    <div>
+                        <h2>contact.me</h2>
+                    </div>
+                    <div>
+                        <img class="imagenventana"  src="cvimagenes/botones-ventana.png" alt="Botones ventana">       
+                    </div>
+                </div>
+
+                <!--CONTACTO: CONTENIDO-->
+                <div class="contacto-container">
+                    <p>Hey! Let's work together!</p>
+
+                    <form class="contact-form">
+
+                        <label for="nombre" class="form-label">Tu nombre</label>
+                        <input type="text" id="nombre" name="nombre" class="input" required/>
+
+                        <label for="email" class="form-label">Email</label>
+                        <input type="text" id="email" name="email" class="input" required/>
+
+                        <label for="phone" class="form-label">Teléfono <small>(Opcional)</small></label>
+                        <input type="text" id="phone" name="phone" class="input">
+
+                        <label for="location" class="form-label">Location <small>(Opcional)</small></label>
+                        <select id="location" name="location" class="input">
+                            <option value="milky-way">Milky way</option>
+                            <option value="earth">Earth</option>
+                            <option value="arp299">Arp 299</option>
+                            <option value="andromeda1">Andromeda I</option>
+                            <option value="andromeda2">Andromeda II</option>
+                            <option value="otro">Other</option>
+                        </select>
+
+                        <label for="mensaje" class="form-label">Deja tu mensaje!</label>
+                        <textarea id="mensaje" name="mensaje" class="input"></textarea>
+
+                        <input type="submit" value="Enviar" id="enviar-form" class="input" required/>
+                    </form>
+                </div>
+            </div>
+
+            <!--CONTENIDO: SCROLL TO TOP-->
+            <button id="totop"><i class="fa fa-arrow-up"></i></button>
+
+            <!--CONTENIDO: NOTA FINAL-->
+            <div>
+                <p class="nota-final"><i>Hecho con &#10084; por melxcxtn</i></p>
+            </div>
+        </div>
+        
+     
+    <script src="cvfunciones.js"></script>
+</body>
+</html>
